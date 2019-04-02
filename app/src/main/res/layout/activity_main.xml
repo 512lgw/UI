@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="114dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/btn_problem01"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="ListView"
+            android:layout_width="0dp" />
+
+        <Button
+            android:id="@+id/btn_problem02"
+            android:layout_height="80dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="AlertDialog" />
+
+        <Button
+            android:id="@+id/btn_problem03"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:text="XML" />
+
+        <Button
+            android:id="@+id/btn_problem04"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:text="ActionMode" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
